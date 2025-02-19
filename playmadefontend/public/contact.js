@@ -8,7 +8,7 @@ document.getElementById("contact-form").addEventListener("submit", async functio
     };
 
     try {
-        const response = await fetch("https://localhost:3000/send-email", {
+        const response = await fetch("https://playmadebackend.vercel.app/send-email", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
